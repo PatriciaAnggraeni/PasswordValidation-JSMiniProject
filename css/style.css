@@ -70,7 +70,8 @@ body {
 }
 
 .wrapper {
-	padding: 20px;
+	width: 400px;
+	padding-top: 20px;
 	
 	width: 300px;
 	height: 300px;
@@ -104,7 +105,7 @@ body {
 	
 }
 
-.fa-solid.fa-eye-slash {
+.fa-solid .fa-eye-slash {
 	cursor: pointer;
 	position: absolute;
 	
@@ -127,6 +128,18 @@ body {
 
 .requirement-list > li {
 	margin-bottom: 10px;
+}
+
+.requirement-list > li.valid {
+	color: rgb(146, 146, 146);
+}
+
+.requirement-list li.valid i {
+	color: blue;
+}
+
+.requirement-list li.valid span {
+	margin-left: 10px;
 }
 
 button {
