@@ -58,3 +58,83 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	margin-top: 200px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: 'raleway';
+	background-color: rgb(196, 30, 211);
+}
+
+.wrapper {
+	padding: 20px;
+	
+	width: 300px;
+	height: 300px;
+
+	border-radius: 10px;
+	box-sizing: border-box;
+	background-color: beige;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	position: relative;
+}
+
+.password-wrapper > input {
+	width: 250px;
+	height: 30px;
+
+	padding: 5px;;
+	font-size: 1rem;
+	outline: none;
+}
+
+.icn-eye {
+	cursor: pointer;
+	position: absolute;
+	
+	top: 33px;
+	right: 33px;
+	
+}
+
+.requirement-wrapper {
+	margin-top: 30px;
+
+	text-transform: capitalize;
+	font-style: bold;
+	font-size: .9rem;
+}
+
+.requirement-wrapper > p {
+	margin-bottom: 20px;
+}
+
+.requirement-list > li {
+	margin-bottom: 10px;
+}
+
+button {
+	margin-top: 30px;
+
+	width: 100px;
+	height: 30px;
+
+	border: none;
+	cursor: pointer;
+
+	font-weight: bold;
+	font-size: .9rem;
+	font-family: 'raleway';
+	
+	
+	color: beige;
+	border-radius: 10px;
+	background-color: cornflowerblue;
+}

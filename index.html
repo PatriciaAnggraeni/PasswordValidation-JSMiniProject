@@ -7,14 +7,45 @@
         <title>Form Validation - JS</title>
 
         <!-- hubungkan file css -->
-        <link rel="stylesheet" href="css/styke.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- tambahkan link font awesom -->
         <script src="https://kit.fontawesome.com/6a0b823486.js" crossorigin="anonymous"></script>
     </head>
     <body>
+       
+        <div class="wrapper">
+            
+            <!-- membuat input field password -->
+            <div class="password-wrapper">
+                <input type="password" placeholder="Password">
+                <span class="fa-solid fa-eye icn-eye"></span>
+            </div>
 
-        
+            <!-- membuat list untuk syarat password -->
+            <div class="requirement-wrapper">
+                <p>syarat password</p>
+                <ul class="requirement-list">
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>memiliki 8 karakter</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>mengandung satu angka</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span>mengandung satu karakter khusus</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="submit-wrapper">
+                <button>submit</button>
+            </div>
+
+        </div>
 
     </body>
 </html>
